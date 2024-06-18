@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ifsationary.surge.sh/sitemap.xml
+Sitemap: https://ifsationary.github.io/sitemap.xml
