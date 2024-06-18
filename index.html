@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta name="google-site-verification" content="y79ZznmotMRbNgmTIYhOLQj4UcYEQv-NbW6fL6bKdRg" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5ZE92K9YR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y5ZE92K9YR');
+    </script>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFSATIONARY</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+        /* Warna latar belakang merah untuk keseluruhan halaman */
+        html {
+            font-family: Arial, sans-serif;
+            background-color: #800000; /* Warna merah */
+        }
+
+        /* Warna latar belakang body tetap putih */
+        body {
+            background-color: #fff5f5; /* Warna putih yang lebih terang */
+            margin: 0; /* Hapus margin default */
+            padding: 0; /* Hapus padding default */
+        }
+
+		header {
+			position: relative;
+			background-image: url('header.jpg'); /* Ganti dengan path gambar header Anda */
+			background-size: cover;
+			background-position: center;
+			color: #ffffff;
+			padding-bottom: 20px;
+			text-align: center;
+			position: sticky;
+			top: 0;
+			z-index: 100;
+			box-shadow: 0 2px 50px rgba(0, 0, 0, 0.7);
+		}
+
+		header::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5); /* Warna hitam semi-transparan */
+			z-index: -1;
+		}
+
+		header::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 5%;
+			background-color: #800000; /* Warna merah marun */
+			z-index: -1;
+		}
+		
+		.header-title {
+		  font-family: 'Podkova', sans-serif;
+		  font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+		}
+		
+		#navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 35px;
+			padding: 0 20px; /* Padding 20px di kiri dan kanan */
+			background-color: rgba(0, 0, 0, 0.7); /* Background hitam transparan */
+			color: #ffffff; /* Warna teks putih */
+		}
+
+		.nav-left {
+			display: flex; /* Menggunakan flexbox untuk menyusun menu di sisi kiri */
+		}
+
+		.nav-left a {
+			margin-right: 20px; /* Jarak antara setiap menu di sisi kiri */
+			text-decoration: none; /* Hapus garis bawah pada link */
+			color: #ffffff; /* Warna teks putih */
+		}
+
+		.nav-right {
+			display: flex; /* Menggunakan flexbox untuk menyusun elemen di sisi kanan */
+			align-items: center; /* Mengatur agar elemen berada di tengah secara vertikal */
+		}
+
+		.nav-right img {
+			width: auto; /* Atur lebar logo */
+			height: 30px; /* Atur tinggi logo */
+			margin-left: 10px; /* Jarak antara dua logo */
+			object-fit: contain; /* Menyesuaikan logo sesuai rasio aslinya */
+		}
+		
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        #search-bar {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #800000; /* Border maroon */
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex; /* Gunakan Flexbox untuk menampung flashcard */
+            flex-wrap: wrap; /* Membungkus flashcard ke baris baru */
+            gap: 15px; /* Mengatur jarak antar flashcard */
+            justify-content: center; /* Center flashcards */
+        }
+
+        .flashcard {
+            position: relative; /* Tambahkan ini */
+            width: 250px; /* Menentukan lebar flashcard */
+            border: 1px solid #800000; /* Border maroon */
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(128, 0, 0, 0.1); /* Shadow maroon */
+            background-color: #ffebee; /* Warna latar belakang yang lebih terang */
+            cursor: pointer; /* Menambahkan pointer untuk menunjukkan bahwa flashcard bisa diklik */
+            overflow: hidden;
+            transition: transform 0.3s ease; /* Tambahkan transisi untuk animasi yang halus */
+        }
+        .flashcard:hover {
+            transform: scale(0.95); /* Efek mengecilkan saat di-hover */
+        }
+        .flashcard:not(:hover) {
+            transition: transform 0.3s ease; /* Tambahkan transisi kembali untuk animasi yang halus */
+            transform: scale(1); /* Kembalikan ke ukuran normal */
+        }
+
+        .flashcard-term {
+			font-family: 'Podkova', sans-serif;
+			font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #800000; /* Warna teks maroon */
+			padding-right: 35px; /* Tambahkan padding kanan untuk memberikan ruang bagi ikon bookmark */
+			word-break: break-word; /* Pastikan kata-kata dapat dipindahkan ke baris baru */
+        }
+
+        .flashcard-definition {
+            font-size: 1em;
+            height: 4.75em; /* Batas tinggi definisi untuk menampilkan beberapa baris */
+            overflow: hidden;
+            color: #800000; /* Warna teks maroon */
+        }
+
+        /* Pop-up styling */
+        .popup {
+            display: none; /* Pop-up tersembunyi secara default */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 500px;
+            background-color: white;
+            border: 1px solid #800000; /* Border maroon */
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(128, 0, 0, 0.3); /* Shadow maroon */
+            padding: 20px;
+            z-index: 1000; /* Memastikan pop-up berada di atas elemen lainnya */
+        }
+
+		.definition,
+		.definition-id,
+		.source {
+			display: flex;
+			align-items: center;
+		}
+
+		.icon {
+			margin-right: 15px;
+		}
+
+        .popup .close-btn {
+            float: right;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: #800000; /* Warna tombol tutup maroon */
+        }
+
+        .popup-content {
+            margin-top: 10px;
+            color: #800000; /* Warna teks maroon */
+        }
+		
+		.popup-term {
+			font-family: 'Podkova', sans-serif;
+			font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+        }
+		
+		#popup-definition {
+			margin-bottom: 30px; /* Sesuaikan jarak sesuai kebutuhan */
+		}
+
+		#popup-definition-id {
+			margin-bottom: 10px; /* Sesuaikan jarak sesuai kebutuhan */
+		}
+
+
+        /* Background overlay */
+        .overlay {
+            display: none; /* Overlay tersembunyi secara default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Overlay maroon */
+            z-index: 999; /* Memastikan overlay berada di bawah pop-up tapi di atas elemen lainnya */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #800000; /* Warna maroon untuk footer */
+            color: #ffffff; /* Warna teks putih untuk kontras */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Default bookmark style */
+        .flashcard::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+        }
+
+        /* Category-specific bookmark colors */
+        .flashcard.category-a::before {
+            background-image: url('mh.svg'); /* Ganti dengan path gambar bookmark kategori A */
+        }
+
+        .flashcard.category-b::before {
+            background-image: url('silvi.svg'); /* Ganti dengan path gambar bookmark kategori B */
+        }
+
+        .flashcard.category-c::before {
+            background-image: url('thh.svg'); /* Ganti dengan path gambar bookmark kategori C */
+        }
+
+        .flashcard.category-d::before {
+            background-image: url('ksdh.svg'); /* Ganti dengan path gambar bookmark kategori D */
+        }
+
+        #category-buttons-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            padding: 0 20px; /* Menambahkan jarak 20px pada kedua ujung container */
+        }
+
+        #category-buttons {
+            background-color: #800000; /* Warna latar belakang maroon */
+            border-radius: 25px; /* Membuat ujung box menjadi rounded */
+            overflow: hidden; /* Menyembunyikan overflow */
+            overflow-x: auto; /* Mengaktifkan scroll horizontal jika tombol melebihi lebar box */
+            white-space: nowrap; /* Mencegah teks dari tombol terurai menjadi beberapa baris */
+            display: flex;
+        }
+
+        #category-buttons button {
+            flex: 1;
+            border: none;
+            background-color: #800000; /* Warna latar belakang maroon */
+            color: #ffffff; /* Warna teks putih */
+            cursor: pointer;
+            font-size: 14px; /* Ukuran teks awal */
+            font-weight: bold;
+            padding: 15px;
+            text-align: center;
+            transition: background-color 0.3s ease; /* Animasi halus untuk perubahan background */
+            white-space: nowrap; /* Mencegah teks terurai menjadi beberapa baris */
+            position: relative;
+        }
+
+        /* Add border between buttons */
+        #category-buttons button:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 10%;
+            right: 0;
+            height: 80%;
+            width: 2px;
+            background-color: rgba(255, 255, 255, 0.15); /* Warna garis putih */
+        }
+
+        /* Hover styles */
+        #category-buttons button.category-a:hover, #category-buttons button.category-a.active {
+            background-color: #F55050; /* Warna hover dan klik untuk kategori a */
+        }
+
+        #category-buttons button.category-b:hover, #category-buttons button.category-b.active {
+            background-color: #94D82D; /* Warna hover dan klik untuk kategori b */
+        }
+
+        #category-buttons button.category-c:hover, #category-buttons button.category-c.active {
+            background-color: #F6BF18; /* Warna hover dan klik untuk kategori c */
+        }
+
+        #category-buttons button.category-d:hover, #category-buttons button.category-d.active {
+            background-color: #5C7CFA; /* Warna hover dan klik untuk kategori d */
+        }
+
+        #category-buttons button:focus {
+            outline: none; /* Menghilangkan outline default pada tombol */
+        }
+    </style>
+</head>
+	<body style="display: none;">
+    <header>
+	<nav id="navbar">
+		<div class="nav-left">
+			<a style="text-decoration: underline";>Home</a>
+			<a href="about.html">About</a>
+			<a href="source.html">Source</a>
+		</div>
+		<div class="nav-right">
+			<img src="logo1.png" alt="Logo 1">
+			<img src="logo2.png" alt="Logo 2">
+		</div>
+	</nav>
+		<h1 class="header-title">IFSATIONARY</H1>
+        <input type="text" id="search-bar" placeholder="Search Vocabulary...">
+    </header>
+    
+    <div id="category-buttons-container">
+        <nav id="category-buttons">
+            <button class="category-a" onclick="filterCategory('a', this)">Forest Management</button>
+            <button class="category-b" onclick="filterCategory('b', this)">Silviculture</button>
+            <button class="category-c" onclick="filterCategory('c', this)">Forest Product Technology</button>
+            <button class="category-d" onclick="filterCategory('d', this)">Forest Resources Conservation</button>
+        </nav>
+    </div>
+
+    <main id="flashcards-container">
+        <p>Loading Glossary...</p> <!-- Teks "Loading Glossary..." ditampilkan -->
+    </main>
+
+    <div class="overlay" id="overlay"></div>
+
+	<div class="popup" id="popup">
+		<span class="close-btn" id="close-btn">&times;</span>
+		<div class="popup-content">
+			<h2 class="popup-term" id="popup-term"></h2>
+			<div id="popup-definition" class="definition"></div>
+			<div id="popup-definition-id" class="definition-id"></div>
+			<div id="popup-source" class="source"></div> <!-- Elemen sumber ditambahkan di sini -->
+		</div>
+	</div>
+
+	<footer>
+		<h4>Follow Us!</h4>
+		<div class="social-icons">
+			<a href="https://www.facebook.com/p/IFSA-LC-UGM-100064330825981/?paipv=0&eav=Afb5rac3NYRt5F8jEagKFZd5DcK6RgqxIT7PWCHIMusMRBWf6UeT9aibxV0IYHL6Igw&_rdr" target="_blank">
+				<img src="facebook.svg" alt="Logo 1">
+			</a>
+			<a href="https://www.instagram.com/ifsalcugm/" target="_blank">
+				<img src="instagram.svg" alt="Logo 2">
+			</a>
+			<a href="https://x.com/ifsalcugm?lang=en" target="_blank">
+				<img src="twitterx.svg" alt="Logo 3">
+			</a>
+			<a href="https://www.youtube.com/channel/UC_UZauzZuVnFM5mkscLSa6Q" target="_blank">
+				<img src="youtube.svg" alt="Logo 4">
+			<a href="https://ifsaugm.wixsite.com/ifsa" target="_blank">
+				<img src="website.svg" alt="Logo 5">
+			</a>
+		</div>
+		<p style="text-align: center; margin-top: 10px;">&copy;2024 Language Commission of IFSA LC UGM. All Rights Reserved.</p>
+	</footer>
+	<script>
+		window.addEventListener('load', () => {
+			// Code to be executed after all elements are loaded
+			document.body.style.display = 'block'; // Menampilkan halaman setelah semua elemen dimuat
+		});
+
+		let glossaryData = [];
+
+		// Function to load glossary data from JSON file
+		async function loadGlossaryData() {
+			try {
+				const response = await fetch('glossary.json');
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				const data = await response.json();
+				return data;
+			} catch (error) {
+				console.error('Error loading glossary:', error);
+				return [];
+			}
+		}
+
+		// Function to shorten the text
+		function shortenText(text, maxLength) {
+			if (text.length > maxLength) {
+				return text.substring(0, maxLength - 3) + '...';
+			}
+			return text;
+		}
+
+		// Function to sort glossary data alphabetically by term
+		function sortGlossary(glossary) {
+			return glossary.sort((a, b) => a.term.localeCompare(b.term));
+		}
+
+		// Function to create flashcards and display them in the container
+		function createFlashcards(glossary) {
+			const sortedGlossary = sortGlossary(glossary); // Urutkan glossary
+			const container = document.getElementById('flashcards-container');
+			container.innerHTML = ''; // Clear previous content
+			if (sortedGlossary.length === 0) {
+				container.innerHTML = `
+					<div style="text-align: center;">
+						<img src="notfound.svg" alt="Not Found" style="width: 80px; height: auto;">
+						<p>Missing a term? Contribute to our glossary by submitting it, and we’ll make sure to add it soon!</p>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwYeQQ2wgIuTU0PYYej0qoLVLM0sQexaY1VmjdQ3tEaZKlug/viewform" target="_blank" style="display: inline-block; color: #800000; text-decoration: underline;">Submit here!</a>
+					</div>
+				`;
+				return;
+			}
+
+			sortedGlossary.forEach(item => {
+				const flashcard = document.createElement('div');
+				flashcard.classList.add('flashcard');
+				flashcard.classList.add(`category-${item.category}`); // Add category class
+
+				flashcard.innerHTML = `
+					<div class="flashcard-term">${item.term}</div>
+					<div class="flashcard-definition">${shortenText(item.definition, 150)}</div>
+				`;
+
+				flashcard.addEventListener('click', () => {
+					document.getElementById('popup-term').innerText = item.term;
+
+					// Menambahkan ikon di samping teks definisi
+					document.getElementById('popup-definition').innerHTML = `
+						<span class="icon"><img src="usa.png" alt="Icon 1"></span> ${item.definition}
+					`;
+
+					// Menambahkan ikon di samping teks definisi-id
+					document.getElementById('popup-definition-id').innerHTML = `
+						<span class="icon"><img src="ind.png" alt="Icon 2"></span> ${item['definition-id']}
+					`;
+
+					// Menampilkan sumber
+					document.getElementById('popup-source').innerHTML = `
+						<span class="icon"><img src="source.svg" alt="Source Icon"></span> <a href="${item.source}" target="_blank">${item.source}</a>
+					`;
+
+					document.getElementById('overlay').style.display = 'block';
+					document.getElementById('popup').style.display = 'block';
+				});
+
+				container.appendChild(flashcard);
+			});
+		}
+
+		// Function to close the pop-up
+		function closePopup() {
+			document.getElementById('overlay').style.display = 'none';
+			document.getElementById('popup').style.display = 'none';
+		}
+
+		// Event listener to close the pop-up when clicking the close button or overlay
+		document.getElementById('close-btn').addEventListener('click', closePopup);
+		document.getElementById('overlay').addEventListener('click', closePopup);
+
+		// Search function
+		function searchGlossary() {
+			const query = document.getElementById('search-bar').value.toLowerCase();
+			const filteredGlossary = glossaryData.filter(item => 
+				item.term.toLowerCase().includes(query)
+			);
+			createFlashcards(filteredGlossary);
+		}
+
+		let activeButton = null; // Variable to keep track of the active button
+
+		function filterCategory(category, element) {
+			// Check if the same button is clicked
+			if (activeButton === element) {
+				// Remove active class from all buttons
+				const buttons = document.querySelectorAll('#category-buttons button');
+				buttons.forEach(button => button.classList.remove('active'));
+				
+				// Reset activeButton
+				activeButton = null;
+
+				// Show all flashcards
+				createFlashcards(glossaryData);
+			} else {
+				// Remove active class from all buttons
+				const buttons = document.querySelectorAll('#category-buttons button');
+				buttons.forEach(button => button.classList.remove('active'));
+
+				// Add active class to the clicked button
+				element.classList.add('active');
+
+				// Set the clicked button as active
+				activeButton = element;
+
+				// Filter flashcards by category
+				const filteredGlossary = glossaryData.filter(item => item.category === category);
+				createFlashcards(filteredGlossary);
+			}
+		}
+
+		// Main script execution
+		document.addEventListener('DOMContentLoaded', async () => {
+			glossaryData = await loadGlossaryData();
+			createFlashcards(glossaryData); // Buat flashcards dari glossaryData yang sudah diurutkan
+			document.getElementById('search-bar').addEventListener('input', searchGlossary);
+		});
+	</script>
+</body>
+</html>

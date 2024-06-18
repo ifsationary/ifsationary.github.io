@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source - IFSATIONARY</title>
+    <style>
+        /* Warna latar belakang merah untuk keseluruhan halaman */
+        html {
+            font-family: Arial, sans-serif;
+            background-color: #800000; /* Warna merah */
+        }
+
+        /* Warna latar belakang body tetap putih */
+        body {
+            background-color: #fff5f5; /* Warna putih yang lebih terang */
+            margin: 0; /* Hapus margin default */
+            padding: 0; /* Hapus padding default */
+        }
+
+        header {
+            position: relative;
+            background-image: url('header.jpg'); /* Ganti dengan path gambar header Anda */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            padding-bottom: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 50px rgba(0, 0, 0, 0.7);
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Warna hitam semi-transparan */
+            z-index: -1;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 5%;
+            background-color: #800000; /* Warna merah marun */
+            z-index: -1;
+        }
+
+        .header-title {
+            font-family: 'Podkova', sans-serif;
+            font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 35px;
+            padding: 0 20px; /* Padding 20px di kiri dan kanan */
+            background-color: rgba(0, 0, 0, 0.7); /* Background hitam transparan */
+            color: #ffffff; /* Warna teks putih */
+        }
+
+        .nav-left {
+            display: flex; /* Menggunakan flexbox untuk menyusun menu di sisi kiri */
+        }
+
+        .nav-left a {
+            margin-right: 20px; /* Jarak antara setiap menu di sisi kiri */
+            text-decoration: none; /* Hapus garis bawah pada link */
+            color: #ffffff; /* Warna teks putih */
+        }
+
+        .nav-right {
+            display: flex; /* Menggunakan flexbox untuk menyusun elemen di sisi kanan */
+            align-items: center; /* Mengatur agar elemen berada di tengah secara vertikal */
+        }
+
+        .nav-right img {
+            width: auto; /* Atur lebar logo */
+            height: 30px; /* Atur tinggi logo */
+            margin-left: 10px; /* Jarak antara dua logo */
+            object-fit: contain; /* Menyesuaikan logo sesuai rasio aslinya */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+		
+		h2 {
+			text-align: center;
+			font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+            margin-bottom: 10px;
+            color: #800000; /* Warna teks maroon */
+			font-family: 'Podkova', sans-serif;
+			font-weight: 800; /* Anda bisa mengatur berat font sesuai kebutuhan (400-800) */
+		}
+
+        main {
+            padding: 20px;
+            text-align: center; /* Center content */
+			margin-left: 30px;
+			margin-right: 30px;
+			text-align: justify;
+			color: #800000; /* Warna teks maroon */
+        }
+
+        footer {
+            background-color: #800000; /* Warna maroon untuk footer */
+            color: #ffffff; /* Warna teks putih untuk kontras */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a style="text-decoration: underline";>Source</a>
+            </div>
+            <div class="nav-right">
+                <img src="logo1.png" alt="Logo 1">
+                <img src="logo2.png" alt="Logo 2">
+			</div>
+		</nav>
+		<h1 class="header-title">IFSATIONARY</h1>
+	</header>
+	<main>
+		<h2>Source</h2>
+		<p>Thank you to the following sources that have helped in the creation of this project:</p>
+		<ul>
+			<li><strong>North Carolina Forestry Association</strong>: https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms</li>
+			<li><strong>Maryland Department of Natural Resources</strong>: https://dnr.maryland.gov/forests/pages/gloss.aspx#s</li>
+			<li><strong>Canadian Forest Service</strong>: https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf</li>
+			<li><strong>Vocabulary.com</strong>: https://www.vocabulary.com/dictionary/exploitation</li>
+			<li><strong>University of California Agriculture and Natural Resources</strong>: https://cemendocino.ucanr.edu/files/17302.pdf</li>
+			<li><strong>Icons8</strong>: https://icons8.com/</li>
+			<li><strong>Unsplash</strong>: https://unsplash.com/</li>
+			<li><strong>Iconfinder</strong>: https://www.iconfinder.com/</li>
+		</ul>
+	</main>
+	<footer>
+		<h4>Follow Us!</h4>
+		<div class="social-icons">
+			<a href="https://www.facebook.com/p/IFSA-LC-UGM-100064330825981/?paipv=0&eav=Afb5rac3NYRt5F8jEagKFZd5DcK6RgqxIT7PWCHIMusMRBWf6UeT9aibxV0IYHL6Igw&_rdr" target="_blank">
+				<img src="facebook.svg" alt="Logo 1">
+			</a>
+			<a href="https://www.instagram.com/ifsalcugm/" target="_blank">
+				<img src="instagram.svg" alt="Logo 2">
+			</a>
+			<a href="https://x.com/ifsalcugm?lang=en" target="_blank">
+				<img src="twitterx.svg" alt="Logo 3">
+			</a>
+			<a href="https://www.youtube.com/channel/UC_UZauzZuVnFM5mkscLSa6Q" target="_blank">
+				<img src="youtube.svg" alt="Logo 4">
+			<a href="https://ifsaugm.wixsite.com/ifsa" target="_blank">
+				<img src="website.svg" alt="Logo 5">
+			</a>
+		</div>
+		<p style="text-align: center; margin-top: 10px;">&copy;2024 Language Commission of IFSA LC UGM. All Rights Reserved.</p>
+	</footer>
+
+</body>
+</html>

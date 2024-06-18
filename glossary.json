@@ -1,0 +1,422 @@
+[
+ {
+"term": "Forest Management.",
+"definition": "Caring for a forest so that it stays healthy and vigorous and provides the products and values the landowner desires.",
+"definition-id": "Merawat hutan agar tetap sehat dan kuat serta menyediakan produk dan nilai yang diinginkan oleh pemilik tanah.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Site Index.",
+"definition": "A relative measure of forest site quality based on the height (in feet) of the dominant trees at a specific age (usually 25 or 50 years, depending on rotation length). Site index information helps estimate future returns and land productivity for timber and wildlife.",
+"definition-id": "Ukuran relatif kualitas lahan hutan berdasarkan tinggi (dalam kaki) dari pohon-pohon dominan pada usia tertentu (biasanya 25 atau 50 tahun, tergantung pada panjang rotasi). Informasi indeks situs ini membantu memperkirakan hasil masa depan dan produktivitas lahan untuk kayu dan satwa liar.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Selective Cutting.",
+"definition": "The periodic removal of individual trees or groups of trees to improve or regenerate a stand.",
+"definition-id": "Penghilangan berkala pohon-pohon individu atau kelompok pohon untuk memperbaiki atau meregenerasi tegakan hutan.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Rotation.",
+"definition": "The number of years required to establish and grow trees to a specified size, product or condition of maturity. A pine rotation may range from as short as 20 years for pulpwood to more than 60 years for sawtimber.",
+"definition-id": "Jumlah tahun yang diperlukan untuk menanam dan menumbuhkan pohon hingga mencapai ukuran, produk, atau kondisi kematangan yang ditentukan. Siklus penanaman pinus dapat berkisar dari sesingkat 20 tahun untuk kayu bubur hingga lebih dari 60 tahun untuk kayu gergajian.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Reforestation.",
+"definition": "Reestablishing a forest by planting or seeding an area from which forest vegetation has been removed.",
+"definition-id": "Menghidupkan kembali hutan dengan menanam atau menabur benih di area yang vegetasi hutannya telah dihilangkan.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Prescribed Burning.",
+"definition": "The practice of using regulated fires to reduce or eliminate material on the forest floor, for seedbed preparation or to control competing vegetation. Prescribed burning simulates one of the most common natural disturbances. Also called controlled burning.",
+"definition-id": "Praktik menggunakan api yang diatur untuk mengurangi atau menghilangkan bahan di lantai hutan, untuk persiapan lahan tanam atau untuk mengendalikan vegetasi yang bersaing. Pembakaran yang terkendali ini meniru salah satu gangguan alami yang paling umum. Juga disebut pembakaran terkendali.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Multiple-Use Management.",
+"definition": "The management of land or forest for more than one purpose, such as wood production, water quality, wildlife, recreation, aesthetics and clean air.",
+"definition-id": "Pengelolaan lahan atau hutan untuk lebih dari satu tujuan, seperti produksi kayu, kualitas air, satwa liar, rekreasi, estetika, dan udara bersih.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "High-Grading.",
+"definition": "A harvesting technique that removes only the biggest and most valuable trees from a stand and provides high returns at the expense of future growth potential. Poor quality, shade-loving trees tend to dominate in continually high-graded sites.",
+"definition-id": "Teknik pemanenan yang hanya menghilangkan pohon-pohon terbesar dan paling bernilai dari tegakan hutan dan memberikan hasil tinggi dengan mengorbankan potensi pertumbuhan di masa depan. Pohon berkualitas rendah yang menyukai naungan cenderung mendominasi di lokasi yang terus menerus dipanen secara intensif.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Forest Type.",
+"definition": "A designation or name given to a forest based on the most abundant tree type or types in the stand; groups of tree species commonly growing in the same stand because their environmental requirements are similar. Examples of North Carolina forest types include (a) pine; (b) mixed hardwood; (c) cypress, tupelo and black gum; and (d) oak and hickory.",
+"definition-id": "Penunjukan atau nama yang diberikan kepada hutan berdasarkan jenis pohon yang paling banyak atau dominan di dalam tegakan; kelompok spesies pohon yang biasanya tumbuh bersama di dalam satu tegakan karena persyaratan lingkungannya serupa. Contoh jenis hutan di North Carolina meliputi: (a) pinus; (b) campuran kayu keras; (c) pohon cemara, tupelo, dan black gum; serta (d) pohon oak dan hickory.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Forest Stewardship Plan.",
+"definition": "A written document listing activities that enhance or improve forest resources (wildlife, timber, soil, water, recreation and aesthetics) on private land over a five-year period.",
+"definition-id": "Dokumen tertulis yang mencantumkan kegiatan-kegiatan yang meningkatkan atau memperbaiki sumber daya hutan (satwa liar, kayu, tanah, air, rekreasi, dan estetika) di lahan pribadi selama periode lima tahun.",
+"category": "a",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms" 
+    },
+ {
+"term": "Consulting Forester.",
+"definition": "an independent professional who manages forests and markets forest products for private woodland owners. Consulting foresters do not have direct connections with firms that buy wood products, but are retained by woodland owners as their agents.",
+"definition-id": "Seorang profesional independen yang mengelola hutan dan memasarkan produk hutan untuk pemilik hutan swasta. Konsultan kehutanan tidak memiliki hubungan langsung dengan perusahaan yang membeli produk kayu, tetapi dipekerjakan oleh pemilik hutan sebagai agen mereka.",
+"category": "a",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+    },
+ {
+"term": "Variable Retention Harvest System.",
+"definition": "an approach to harvesting based on the retention of structural elements or biological legacies (trees, snags, logs, etc.) from the harvested stand for integration into the new stand to achieve various ecological objectives.",
+"definition-id": "Sebuah pendekatan pemanenan yang didasarkan pada retensi elemen struktural atau warisan biologis (pohon, batang mati, batang kayu, dll.) dari tegakan yang ditebang untuk diintegrasikan ke dalam tegakan baru guna mencapai berbagai tujuan ekologis.",
+"category": "a",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+    },
+ {
+"term": "Sustained Yield.",
+"definition": "an ideal forest management objective in which the volume of wood removed equals growth within the total forest.",
+"definition-id": "Tujuan ideal dalam pengelolaan hutan di mana volume kayu yang diambil sama dengan pertumbuhan dalam hutan secara keseluruhan.",
+"category": "a",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+    },
+ {
+"term": "Extension Forester.",
+"definition": "A Cooperative Extension Service professional who educates woodland owners on how they can effectively manage their forests.",
+"definition-id": "Seorang profesional Layanan Perluasan Kerjasama yang memberikan edukasi kepada pemilik hutan tentang bagaimana mereka dapat mengelola hutan mereka secara efektif..",
+"category": "a",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+    },
+ {
+"term": "Old-growth Forest.",
+"definition": "a wooded area, usually greater than 200 years of age, that has never been altered or harvested by humans. An old-growth forest often has large individual trees, a multi-layered crown canopy, and a significant accumulation of coarse woody debris including snags and fallen logs.",
+"definition-id": "Sebuah area berhutan, biasanya lebih dari 200 tahun usianya, yang tidak pernah diubah atau ditebang oleh manusia. Hutan tua sering kali memiliki pohon-pohon individu yang besar, kanopi bertingkat, dan akumulasi signifikan dari material kayu kasar termasuk pohon mati berdiri dan batang kayu yang tumbang.",
+"category": "a",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+    },
+{
+"term": "Yarding.",
+"definition": "Moving trees or logs from felling site to roadside with cable, winch, or helicopter.",
+"definition-id": "Pengelolaan lahan atau hutan untuk lebih dari satu tujuan, seperti produksi kayu, kualitas air, satwa liar, rekreasi, estetika, dan udara bersih.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Wood Pulp.",
+"definition": "A fibrous material produced by reducing wood to its component parts. Used for paper and paper board sheets.",
+"definition-id": "Bahan berserat yang dihasilkan dengan menguraikan kayu menjadi bagian-bagiannya. Digunakan untuk lembaran kertas dan papan kertas.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Wood Chips.",
+"definition": "Small pieces of wood used to make pulp.",
+"definition-id": "Potongan kayu kecil yang digunakan untuk membuat bubur kertas.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Waferboard.",
+"definition": "T A type of particle board composed of wafers (mostly poplar) of uniform length and thickness.",
+"definition-id": "Jenis papan partikel yang terdiri dari potongan-potongan (terutama dari kayu poplar) dengan panjang dan ketebalan yang seragam.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Disc Trencher.",
+"definition": "A machine designed for mechanical site preparation. It provides continuous rows of planting spots rather than intermittent patches as provided by patch scarifiers. Consists of scarifying steel discs equipped with teeth.",
+"definition-id": "Mesin yang dirancang untuk persiapan lahan secara mekanis. Mesin ini menyediakan barisan tempat penanaman secara terus-menerus daripada tambalan yang terputus-putus seperti yang disediakan oleh penggaru tambalan. Terdiri dari cakram baja yang dilengkapi dengan gigi penggaru.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Clearcutting.",
+"definition": "The harvesting of all trees from an area of forest land in a single cut.",
+"definition-id": "Penebangan semua pohon dari suatu area hutan dalam satu kali tebang.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Highlead System.",
+"definition": "Logging system that uses cables rigged to a spar high above the ground so that one end of the logs can be lifted during yarding.",
+"definition-id": "Sistem penebangan yang menggunakan kabel yang dipasang pada tiang yang tinggi di atas tanah sehingga salah satu ujung kayu gelondongan dapat diangkat selama penyaradan.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "MAI (mean annual increment).",
+"definition": "The average annual increase in volume of individual trees or stands up ro the specified point in time. The MAI changes with different growth phases in a tree’s life, being highest in the middle years and then slowly decreasing with age. The point at which the MAI peaks is commonly used to identify the biological maturity of the stand and its readiness for harvesting.",
+"definition-id": "Peningkatan volume tahunan rata-rata dari pohon individu atau tegakan hingga titik waktu yang ditentukan. MAI (Mean Annual Increment) berubah seiring dengan berbagai fase pertumbuhan dalam kehidupan pohon, mencapai puncaknya pada tahun-tahun pertengahan dan kemudian perlahan-lahan menurun seiring bertambahnya usia. Titik di mana MAI mencapai puncaknya biasanya digunakan untuk mengidentifikasi kematangan biologis tegakan dan kesiapan untuk dipanen.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Merchantable Timber.",
+"definition": "A tree or stand that has attained sufficient size, quality and/or volume to make it suitable for harvesting.",
+"definition-id": "Pohon atau tegakan yang telah mencapai ukuran, kualitas, dan/atau volume yang cukup sehingga layak untuk dipanen.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Particle Board.",
+"definition": "Sheets of building material made from wood particles bonded together with synthetic resin under heat and pressure.",
+"definition-id": "Lembaran bahan bangunan yang terbuat dari partikel kayu yang direkatkan bersama dengan resin sintetis di bawah panas dan tekanan.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Skidding.",
+"definition": "The process of sliding/dragging logs from the stump to a landing, usually applied to ground-based operations.",
+"definition-id": "Proses meluncur/menarik kayu dari pangkal pohon ke tempat pendaratan, biasanya digunakan dalam operasi di darat.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Veneer.",
+"definition": "A thin sheet of wood material either peeled or sliced from a length of log.",
+"definition-id": "Selembar tipis bahan kayu yang baik dikupas atau dipotong dari seutas batang kayu.",
+"category": "c",
+"source": "https://cfs.nrcan.gc.ca/pubwarehouse/pdfs/2919.pdf"
+    },
+ {
+"term": "Seed-tree Harvest System.",
+"definition": "Removal of all trees from the harvest area at one time except for a few scattered trees left to provide seed to establish a new forest stand. California Forest Practice rules specify the number and size to be left per acre.",
+"definition-id": "Penebangan semua pohon dari area pemanenan pada satu waktu kecuali beberapa pohon yang tersebar dibiarkan untuk memberikan biji untuk membentuk hutan baru. Aturan Praktek Kehutanan California menentukan jumlah dan ukuran yang harus dibiarkan per hektar.",
+"category": "c",
+"source": "https://cemendocino.ucanr.edu/files/17302.pdf"
+    },
+ {
+"term": "Thinning.",
+"definition": "– Generally, a cutting in an immature forest stand to reduce the tree density and concentrate the growth potential of fewer, higher quality trees resulting in larger trees with faster growth. Commercial: A thinning that pays for itself and then provides a profit for the owner. Natural: A natural process whereby a tree’s branches or the tree itself dies as a result of root or crown competition. Pre-commercial: A cutting, which does not yield a net income, usually because the trees cut are too small, poor quality, or not marketable. Row: A plantation thinning with specified rows removed regardless of size. Selection: A thinning with individual trees selected for removal.",
+"definition-id": "Secara umum, penjarangan dalam hutan yang belum matang untuk mengurangi kepadatan pohon dan mengkonsentrasikan potensi pertumbuhan pada lebih sedikit pohon berkualitas tinggi, menghasilkan pohon yang lebih besar dengan pertumbuhan yang lebih cepat. Komersial: Sebuah penjarangan yang membayar dirinya sendiri dan kemudian memberikan keuntungan bagi pemiliknya. Alami: Suatu proses alami di mana cabang pohon atau pohon itu sendiri mati akibat persaingan akar atau mahkota. Pra-komersial: Sebuah penebangan yang tidak menghasilkan pendapatan bersih, biasanya karena pohon yang ditebang terlalu kecil, berkualitas rendah, atau tidak dapat dipasarkan. Baris: Sebuah penjarangan perkebunan dengan baris yang ditentukan yang dihapus tanpa memandang ukuran. Seleksi: Sebuah penjarangan dengan pohon-pohon tertentu yang dipilih untuk dihapus.",
+"category": "c",
+"source": "https://cemendocino.ucanr.edu/files/17302.pdf"
+    },
+ {
+"term": "TPZ (Timberland Production Zone).",
+"definition": "Created by the “California Taxation Reform Act” of 1976, TPZs were established so that forest landowners would not pay property tax on the basis of the land’s “highest and best use.” TPZ land is restricted to the growing and harvesting of timber and compatible uses. Lands qualify on the basis of size (minimum sizes are determined by the county in which the land is located) and productivity, as determined annually by the State Board of Equalization for different forest types and sites.",
+"definition-id": "Dibentuk oleh “California Taxation Reform Act” tahun 1976, TPZ (Timber Production Zone) didirikan agar pemilik lahan hutan tidak membayar pajak properti berdasarkan “penggunaan tertinggi dan terbaik” dari lahan tersebut. Lahan TPZ dibatasi untuk penanaman dan pemanenan kayu dan penggunaan yang kompatibel. Lahan memenuhi syarat berdasarkan ukuran (ukuran minimum ditentukan oleh kabupaten tempat lahan tersebut berada) dan produktivitas, seperti yang ditentukan setiap tahun oleh Badan Penyeimbang Negara untuk berbagai jenis dan lokasi hutan.",
+"category": "c",
+"source": "https://cemendocino.ucanr.edu/files/17302.pdf"
+  },
+{
+"term": "Exploitation.",
+"definition": "The act of making some area of land or water more profitable or productive or useful",
+"definition-id": "Tindakan membuat suatu area tanah atau air menjadi lebih menguntungkan atau produktif atau berguna",
+"category": "d",
+"source": "https://www.vocabulary.com/dictionary/exploitation"
+},
+{
+"term": "Conservation.",
+"definition": "Planned management and wise use of natural resources for present and future generations.",
+"definition-id": "Pengelolaan terencana dan penggunaan sumber daya alam yang bijaksana untuk generasi sekarang dan mendatang.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Biodiversity.",
+"definition": "The variety of life forms in a given area; can be categorized in terms of number of species, variety of plant and animal communities, genetic variability or some combination of these categories.",
+"definition-id": "Berbagai bentuk kehidupan di daerah tertentu; dapat dikategorikan dalam hal jumlah spesies, berbagai komunitas tumbuhan dan hewan, variabilitas genetik atau beberapa kombinasi dari kategori ini.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Ecosystem.",
+"definition": "A loosely defined area consisting of numerous habitats.",
+"definition-id": "Area yang didefinisikan secara longgar yang terdiri dari banyak habitat.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Environment.",
+"definition": "The sum of all external living and non-living conditions and influences that affect the development and survival of an organism.",
+"definition-id": "Jumlah semua kondisi hidup eksternal dan non-hidup dan pengaruh yang mempengaruhi perkembangan dan kelangsungan hidup suatu organisme.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Evergreen.",
+"definition": "A group of trees that do not lose all of their leaves every year but go through a gradual replacement by dropping only their oldest leaves each year. Instead of being bare in winter, these trees have leaves all year.",
+"definition-id": "Sekelompok pohon yang tidak kehilangan semua daunnya setiap tahun tetapi mengalami penggantian bertahap dengan hanya menjatuhkan daun tertua mereka setiap tahun. Alih-alih gundul di musim dingin, pohon-pohon ini memiliki daun sepanjang tahun. .",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Reforestation.",
+"definition": "Reestablishing a forest by planting or seeding an area from which forest vegetation has been removed.",
+"definition-id": "Membangun kembali hutan dengan menanam atau menyemai area dari mana vegetasi hutan telah dihilangkan.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Renewable resource.",
+"definition": "A naturally occurring raw material or form of energy that has the capacity to replenish itself through ecological cycles and sound management practices.",
+"definition-id": "Bahan baku alami atau bentuk energi yang memiliki kapasitas untuk mengisi kembali dirinya sendiri melalui siklus ekologis dan praktik manajemen yang baik.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Selective cutting.",
+"definition": "The periodic removal of individual trees or groups of trees to improve or regenerate a stand.",
+"definition-id": "Pemindahan pohon individu atau kelompok pohon secara berkala untuk memperbaiki atau meregenerasi tegakan.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Wildlife.",
+"definition": "A broad term that includes nondomesticated vertebrates, especially mammals, birds and fish.",
+"definition-id": "Istilah luas yang mencakup vertebrata nondomestikasi, terutama mamalia, burung, dan ikan.",
+"category": "d",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+},
+{
+"term": "Growth ring.",
+"definition": "the layers of wood a tree adds each season; also called annual rings. These rings frequently are visible when a tree is cut and can be used to estimate its age and growth rate.",
+"definition-id": "lapisan kayu yang ditambahkan pohon setiap musim; Juga disebut cincin tahunan. Cincin ini sering terlihat ketika pohon ditebang dan dapat digunakan untuk memperkirakan usia dan tingkat pertumbuhannya.",
+"category": "d",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s" 
+},
+{
+"term": "Habitat.",
+"definition": "the ecosystem in which a plant or animal lives and obtains food and water.",
+"definition-id": "ekosistem di mana tanaman atau hewan hidup dan memperoleh makanan dan air.",
+"category": "d",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+},
+{
+"term": "Habitat.",
+"definition": "the ecosystem in which a plant or animal lives and obtains food and water.",
+"definition-id": "ekosistem di mana tanaman atau hewan hidup dan memperoleh makanan dan air.",
+"category": "d",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+},
+{
+"term": "Natural Resources Conservation Service (NRCS).",
+"definition": "the branch of the USDA that coordinates and implements soil conservation practices on private lands. The NRCS can provide woodland owners with detailed information on his or her soil.",
+"definition-id": "cabang USDA yang mengoordinasikan dan menerapkan praktik konservasi tanah di lahan pribadi. NRCS dapat memberi pemilik hutan informasi terperinci tentang tanahnya.",
+"category": "d",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+},
+{
+"term": "Regeneration.",
+"definition": "the process by which a forest is reseeded and renewed. Advanced regeneration refers to regeneration that is established before the existing forest stand is removed.",
+"definition-id": "proses di mana hutan ditanami kembali dan diperbarui. Regenerasi lanjutan mengacu pada regenerasi yang terbentuk sebelum tegakan hutan yang ada dihilangkan.",
+"category": "d",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Silviculture.",
+"definition": "The art, science and practice of establishing, tending and reproducing forest stands of desired characteristics. It is based on knowledge of species’ characteristics and environmental requirements.",
+"definition-id": "Seni, ilmu pengetahuan dan praktik membangun, merawat dan mereproduksi tegakan hutan dengan karakteristik yang diinginkan. Hal ini didasarkan pada pengetahuan tentang karakteristik spesies dan persyaratan lingkungan.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Dendrology.",
+"definition": "The study of trees; tree identification.",
+"definition-id": "Studi tentang pohon; identifikasi pohon.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Gymnospermae.",
+"definition": "A plant whose seeds are not enclosed in flowers. Most gymnosperms produce their seeds on the surface of the scales of female cones and are pollinated by wind. Conifers are the most common type of gymnosperm.",
+"definition-id": "Tanaman yang bijinya tidak tertutup bunga. Kebanyakan gymnospermae menghasilkan bijinya di permukaan sisik kerucut betina dan diserbuki oleh angin. Konifer adalah jenis gymnospermae yang paling umum.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Photosinthesys.",
+"definition": "The process by which a plant or tree combines water and carbon dioxide with energy from the sun to make glucose and oxygen.",
+"definition-id": "Proses dimana tanaman atau pohon menggabungkan air dan karbon dioksida dengan energi dari matahari untuk membuat glukosa dan oksigen.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Conifer.",
+"definition": "A class of trees that are evergreen, have needle or scalelike foliage and conelike fruit; often called softwood. Examples include pine, hemlock, cedar and cypress.",
+"definition-id": "Kelas pohon yang selalu hijau, memiliki dedaunan seperti jarum atau sisik dan buah seperti kerucut; Sering disebut kayu lunak. Contohnya termasuk pinus, hemlock, cedar dan cemara.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Cambium.",
+"definition": "A thin layer of specialized cells within a tree’s trunk that divide to produce new inner bark cells to the outside and new sapwood cells to the inside. The narrow band of cells that is responsible for the tree’s growth in circumference.",
+"definition-id": "Lapisan tipis sel khusus di dalam batang pohon yang membelah untuk menghasilkan sel kulit kayu bagian dalam baru ke luar dan sel gubal baru ke dalam. Pita sempit sel yang bertanggung jawab atas pertumbuhan lingkar pohon.",
+"category": "b",
+"source": "https://www.ncforestry.org/education/education-materials/glossary-of-forestry-terms"
+  },
+{
+"term": "Overtopped.",
+"definition": "the situation in which a tree cannot sufficiently extend its crown into the overstory and receive direct sunlight. Overtopped trees that lack shade tolerance lose vigor and die.",
+"definition-id": "Situasi di mana pohon tidak dapat cukup memperluas mahkotanya ke overstory dan menerima sinar matahari langsung. Pohon overtopped yang tidak memiliki toleransi naungan kehilangan kekuatan dan mati.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Seed tree.",
+"definition": "a mature tree left uncut to provide seed for regeneration of a harvested stand.",
+"definition-id": "Pohon dewasa dibiarkan tidak dipotong untuk menyediakan benih untuk regenerasi tegakan yang dipanen.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Intolerance.",
+"definition": "a characteristic of certain tree species that does not permit them to survive in the shade of other trees.",
+"definition-id": "karakteristik spesies pohon tertentu yang tidak memungkinkan mereka untuk bertahan hidup di bawah naungan pohon lain.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Stratification.",
+"definition": "division of a forest, or any ecosystem, into separate layers of vegetation that provide distinct niches for wildlife. See canopy, understory, and herbaceous vegetation.",
+"definition-id": "pembagian hutan, atau ekosistem apa pun, menjadi lapisan vegetasi terpisah yang menyediakan ceruk berbeda bagi satwa liar. Lihat kanopi, understory, dan vegetasi herba.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Crown.",
+"definition": "the uppermost branches and foliage of a tree.",
+"definition-id": "cabang paling atas dan dedaunan pohon.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Ground spraying.",
+"definition": "A ground application of herbicides to discourage unwanted hardwood competition. It is almost always associated with fertilization. This combined treatment is typically done a year or two after a successful thinning to achieve larger trees faster.",
+"definition-id": "Aplikasi herbisida di tanah untuk mengurangi persaingan pohon berdaun keras yang tidak diinginkan. Hal ini hampir selalu dikaitkan dengan pemupukan. Perawatan gabungan ini biasanya dilakukan setahun atau dua tahun setelah penipisan yang sukses untuk mencapai pertumbuhan pohon yang lebih besar dengan lebih cepat.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Stratification.",
+"definition": "a ground application of herbicides to discourage unwanted hardwood competition. It is almost always associated with fertilization. This combined treatment is typically done a year or two after a successful thinning to achieve larger trees faster.",
+"definition-id": "pembagian hutan, atau ekosistem apa pun, menjadi lapisan vegetasi terpisah yang menyediakan ceruk berbeda bagi satwa liar. Lihat kanopi, understory, dan vegetasi herba.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Succession.",
+"definition": "the natural replacement of one plant (or animal) community by another over time in the absence of disturbance.",
+"definition-id": "penggantian alami satu komunitas tanaman (atau hewan) oleh yang lain dari waktu ke waktu tanpa adanya gangguan.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+  },
+{
+"term": "Vegetation.",
+"definition": "low-growing, non-woody plants, including wildflowers and ferns, in a forest understory.",
+"definition-id": "Tanaman non-kayu yang tumbuh rendah, termasuk bunga liar dan pakis, di bawah hutan.",
+"category": "b",
+"source": "https://dnr.maryland.gov/forests/pages/gloss.aspx#s"
+}
+]
